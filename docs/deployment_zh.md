@@ -109,7 +109,7 @@ bash ./bin/bitsail run --engine flink --conf [job_conf_path] --execution-mode ru
 可以使用如下指令提交一个 Fake2Print 测试作业到default队列。
 
 ``` bash
-bash ./bin/bitsail run --engine flink --conf ~/bitsail-archive-0.1.0-SNAPSHOT/examples/Fake_Proint_Example.json --execution-mode run -p 1=1  --deployment-mode yarn-per-job  --queue default
+bash ./bin/bitsail run --engine flink --conf ~/bitsail-archive-0.1.0-SNAPSHOT/examples/Fake_Print_Example.json --execution-mode run -p 1=1  --deployment-mode yarn-per-job  --queue default
 ```
 
 ### <span id="jump_log">调试日志</span>
